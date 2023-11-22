@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy"
+
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F4F1DE;
+}
+#innerbox{
+    overflow: hidden;
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#topbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 15%;
+    width: 100%;
+    background-color: #F2CC8F;
+}
+
+#topbox .box{
+    border-radius: 20%;
+    width: 30px;
+    height: 30px;
+    background-color: #81B29A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#bubblearea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 20px;
+}
+
+#bubblearea .bubble{
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #eab697;
+}
+
+#bubblearea .bubble:hover{
+    background-color: #E07A5F;
+    cursor: pointer;
+}
+
+.elem{
+    text-transform: uppercase;
+}
+
